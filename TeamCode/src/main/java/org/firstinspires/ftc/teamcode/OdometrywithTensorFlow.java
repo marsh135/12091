@@ -168,9 +168,9 @@ public class OdometrywithTensorFlow<TICKS_TO_INCHES> extends LinearOpMode {
     // declare odometry pods:
 
     // define our constants
-    static final double TRACKWIDTH = 13.7;
-    static final double TICKS_TO_INCHES = 15.3;
-    static final double CENTER_WHEEL_OFFSET = 2.4;
+    static  double TRACKWIDTH = 13.7;
+    static  double TICKS_TO_INCHES = 15.3;
+    static  double CENTER_WHEEL_OFFSET = 2.4;
 
     // create our encoders
     //MotorEx encoderLeft, encoderRight, encoderPerp;
@@ -179,9 +179,9 @@ public class OdometrywithTensorFlow<TICKS_TO_INCHES> extends LinearOpMode {
     MotorEx encoderPerp = new MotorEx(hardwareMap, "center_encoder");
 
 
-    encoderLeft.setDistancePerPulse(TICKS_TO_INCHES);
-    encoderRight.setDistancePerPulse(TICKS_TO_INCHES);
-    encoderPerp.setDistancePerPulse(TICKS_TO_INCHES);
+    //encoderLeft.setDistancePerPulse(TICKS_TO_INCHES);
+    //encoderRight.setDistancePerPulse(TICKS_TO_INCHES);
+    //encoderPerp.setDistancePerPulse(TICKS_TO_INCHES);
 
     // create the odometry object
     HolonomicOdometry holOdom = new HolonomicOdometry(

@@ -95,7 +95,7 @@ public class ND_Mecanum_TF_Vu extends LinearOpMode {
         this.resetStartTime();
         
 
-        if (ClassFactory.getInstance().canCreateTFObjectDetector()) {
+        /*if (ClassFactory.getInstance().canCreateTFObjectDetector()) {
             initTfod();
         } else {
             telemetry.addData("Sorry!", "This device is not compatible with TFOD");

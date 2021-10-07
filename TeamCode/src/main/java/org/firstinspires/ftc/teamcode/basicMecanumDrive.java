@@ -54,7 +54,6 @@ import com.qualcomm.robotcore.util.Range;
  */
 
 @TeleOp(name="Basic Mecanum Drive", group="AndroidStudio")
-@Disabled
 public class basicMecanumDrive extends OpMode
 {
     // Declare OpMode members.
